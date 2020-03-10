@@ -3,6 +3,14 @@ Shared Tasks in NLPCC 2020.
 
 Task 1 - Light Pre-Training Chinese Language Model for NLP Task
 
+注册地址：
+
+https://www.cluebenchmarks.com/nlpcc.html
+
+NLPCC 2020 网站：
+
+http://tcci.ccf.org.cn/conference/2020/cfpt.php
+
 ## Task overview
 
 **Task 1 - Light Pre-Training Chinese Language Model for NLP Task**
