@@ -68,3 +68,15 @@ Information in this page we refered to:
 ## NOTE
 
 Any question, please contact us via CLUEbenchmark@163.com or just open an issue.
+
+
+
+# Timeline for this task
+
+[] 首先把任务详细说明列出-2020.3.15
+
+[] 整理出baseline，以及对应的数据和评估脚本-2020.3.20
+
+[] 测试系统，评测，并走通流程-2020.3.25
+
+[] 撰写相关评测文档 并对作者提交结果进行check
