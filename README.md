@@ -57,6 +57,14 @@ Registration online with the following steps:
 
 2020/08/10：camera-ready paper submission deadline;
 
+## Reference
+
+Information in this page we refered to:
+
+[1] http://tcci.ccf.org.cn/conference/2019/taskdata.php
+
+[2] 
+
 ## NOTE
 
 Any question, please contact us via CLUEbenchmark@163.com or just open an issue.
