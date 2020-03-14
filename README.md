@@ -13,7 +13,7 @@ http://tcci.ccf.org.cn/conference/2020/cfpt.php
 
 比赛交流群：
 
-![img](https://github.com/CLUEbenchmark/LightLM/img/shared_task_QA_code)
+![img](https://github.com/CLUEbenchmark/LightLM/blob/master/img/shared_task_QA_code)
 
 ## Task overview
 
