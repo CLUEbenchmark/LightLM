@@ -11,6 +11,10 @@ NLPCC 2020 网站：
 
 http://tcci.ccf.org.cn/conference/2020/cfpt.php
 
+比赛交流群：
+
+![img](https://github.com/CLUEbenchmark/LightLM/img/shared_task_QA_code)
+
 ## Task overview
 
 **Task 1 - Light Pre-Training Chinese Language Model for NLP Task**
