@@ -63,7 +63,7 @@ Registration online with the following steps:
 
 # Dataset Description
 
-##### 1. CLUENER 细粒度命名实体识别 [详情](https://github.com/CLUEbenchmark/CLUENER2020)
+##### 1. CLUENER 细粒度命名实体识别 [详情](https://github.com/CLUEbenchmark/CLUENER2020) [NER数据下载]([数据下载](http://www.cluebenchmark.com/introduce.html))
 
 ```
 训练集：10748
@@ -95,7 +95,7 @@ Registration online with the following steps:
 景点（scene）:199
 ```
 
-##### 2. WSC Winograd模式挑战中文版 The Winograd Schema Challenge,Chinese Version [详情](https://github.com/CLUEbenchmark/CLUE)
+##### 2. WSC Winograd模式挑战中文版 The Winograd Schema Challenge,Chinese Version [详情](https://github.com/CLUEbenchmark/CLUE) WSC数据集下载
 
 威诺格拉德模式挑战赛是图灵测试的一个变种，旨在判定AI系统的常识推理能力。参与挑战的计算机程序需要回答一种特殊但简易的常识问题：代词消歧问题，即对给定的名词和代词判断是否指代一致。
 
@@ -115,7 +115,7 @@ Registration online with the following steps:
     其中label标签，true表示指代一致，false表示指代不一致。
 ```
 
-##### 3. CSL 论文关键词识别 Keyword Recognition [详情](https://github.com/CLUEbenchmark/CLUE)
+##### 3. CSL 论文关键词识别 Keyword Recognition [详情](https://github.com/CLUEbenchmark/CLUE) [CSL数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/csl_public.zip) NLPCC-CSL数据集下载
 
 [中文科技文献数据集(CSL)](https://github.com/P01son6415/chinese-scientific-literature-dataset)取自中文论文摘要及其关键词，论文选自部分中文社会科学和自然科学核心期刊。 使用tf-idf生成伪造关键词与论文真实关键词混合，构造摘要-关键词对，任务目标是根据摘要判断关键词是否全部为真实关键词。
 
@@ -127,9 +127,9 @@ Registration online with the following steps:
     
 ```
 
-[CSL数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/csl_public.zip)
 
-##### 4.CMRC2018 简体中文阅读理解任务 Reading Comprehension for Simplified Chinese [详情](https://github.com/CLUEbenchmark/CLUE)
+
+##### 4.CMRC2018 简体中文阅读理解任务 Reading Comprehension for Simplified Chinese [详情](https://github.com/CLUEbenchmark/CLUE) [CMRC2018数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/cmrc2018_public.zip)
 
 https://hfl-rc.github.io/cmrc2018/
 
@@ -176,8 +176,6 @@ https://hfl-rc.github.io/cmrc2018/
     ]
 }
 ```
-
-[CMRC2018数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/cmrc2018_public.zip)
 
 ## Reference
 
