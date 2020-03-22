@@ -1,7 +1,6 @@
 # LightLM 高性能小模型测评
-Shared Tasks in NLPCC 2020. 
 
-本次测评的基线模型、代码和一键运行脚本，见<a href='https://github.com/CLUEbenchmark/CLUEPretrainedModels'>CLUEPretrainedModels</a>
+Shared Tasks in NLPCC 2020. 
 
 Task 1 - Light Pre-Training Chinese Language Model for NLP Task
 
@@ -63,9 +62,15 @@ Registration online with the following steps:
 
 2020/08/10：camera-ready paper submission deadline;
 
+# 本次测评的基线模型、代码和一键运行脚本
+
+ CLUENER2020、WSC、CSL: 见<a href='https://github.com/CLUEbenchmark/CLUEPretrainedModels'>CLUEPretrainedModels</a>
+ 
+ CMRC 2018: 见<a href='https://github.com/CLUEbenchmark/CLUE'>CLUE</a>
+ 
 # 任务描述 Dataset Description
 
-##### 1. CLUENER 细粒度命名实体识别 [详情](https://github.com/CLUEbenchmark/CLUENER2020) [NER数据下载]([数据下载](http://www.cluebenchmark.com/introduce.html))
+##### 1. CLUENER2020  细粒度命名实体识别 [详情](https://github.com/CLUEbenchmark/CLUENER2020) [NER数据下载]([数据下载](http://www.cluebenchmark.com/introduce.html))
 
 ```
 训练集：10748
