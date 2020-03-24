@@ -102,9 +102,12 @@ Registration online with the following steps:
 景点（scene）:199
 ```
 
-##### 2. CLUEWSC2020: WSC Winograd模式挑战中文版，新版 The Winograd Schema Challenge,Chinese Version  <a href='https://storage.googleapis.com/cluebenchmark/tasks/cluewsc2020_public.zip'>CLUEWSC2020数据集下载</a>
+##### 2. CLUEWSC2020: WSC Winograd模式挑战中文版，新版2020-03-25发布  <a href='https://storage.googleapis.com/cluebenchmark/tasks/cluewsc2020_public.zip'>CLUEWSC2020数据集下载</a>
 
-Winograd Scheme Challenge（WSC）是一类代词消歧的任务，即判断句子中的代词指代的是哪个名词。题目以真假判别的方式出现，如：
+Winograd Scheme Challenge（WSC）是一类代词消歧的任务。新版与原CLUE项目WSC内容不同
+
+即判断句子中的代词指代的是哪个名词。题目以真假判别的方式出现，如：
+
 句子：这时候放在床上枕头旁边的手机响了，我感到奇怪，因为欠费已被停机两个月，现在它突然响了。需要判断“它”指代的是“床”、“枕头”，还是“手机”？
 
 数据来源：数据有CLUE benchmark提供，从中国现当代作家文学作品中抽取，再经语言专家人工挑选、标注。
