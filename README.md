@@ -18,11 +18,11 @@ http://tcci.ccf.org.cn/conference/2020/cfpt.php
 
 ## 任务介绍 Task overview
 
-**Task 1 - Light Pre-Training Chinese Language Model for NLP Task**
-
-The goal of this task is to train a light language model which is still as powerful as the other normal models. Each model will be tested on many different downstream NLP tasks. We would take the number of parameters, accuracy and inference time as the metrics to measure the performance of a model. To meet the challenge of the lack of Chinese corpus, we will provide a big Chinese corpus for this task and will release them for all the researchers later.
+**Task 1 - 高性能小模型测评 Light Pre-Training Chinese Language Model for NLP Task**
 
 这个任务的目标是训练一个和正常大小的语言模型效果相似的轻量级的语言模型。每个提交上来的模型都会在多个不同的下游NLP任务上评估性能。我们将会综合考虑模型参数数量，模型准确率以及模型推理时间，这些将一起作为模型的评估标准。
+
+The goal of this task is to train a light language model which is still as powerful as the other normal models. Each model will be tested on many different downstream NLP tasks. We would take the number of parameters, accuracy and inference time as the metrics to measure the performance of a model. To meet the challenge of the lack of Chinese corpus, we will provide a big Chinese corpus for this task and will release them for all the researchers later.
 
 为了满足很多参赛者对中文语料缺乏的情况，我们提供了目前为止最大中文语料库作为这个任务的补充资源。这些语料将会在之后公布给大家。
 
@@ -102,25 +102,28 @@ Registration online with the following steps:
 景点（scene）:199
 ```
 
-##### 2. WSC Winograd模式挑战中文版 The Winograd Schema Challenge,Chinese Version [详情](https://github.com/CLUEbenchmark/CLUE) WSC数据集下载
+##### 2. WSC Winograd模式挑战中文版 The Winograd Schema Challenge,Chinese Version  <a href='https://storage.googleapis.com/cluebenchmark/tasks/cluewsc2020_public.zip'>WSC数据集下载</a>
 
-威诺格拉德模式挑战赛是图灵测试的一个变种，旨在判定AI系统的常识推理能力。参与挑战的计算机程序需要回答一种特殊但简易的常识问题：代词消歧问题，即对给定的名词和代词判断是否指代一致。
+Winograd Scheme Challenge（WSC）是一类代词消歧的任务，即判断句子中的代词指代的是哪个名词。题目以真假判别的方式出现，如：
+句子：这时候放在床上枕头旁边的手机响了，我感到奇怪，因为欠费已被停机两个月，现在它突然响了。需要判断“它”指代的是“床”、“枕头”，还是“手机”？
 
-```
-数据量：训练集(532)，验证集(104)，测试集(143) 
-例子：
-{"target": 
-    {"span2_index": 28, 
-     "span1_index": 0, 
-     "span1_text": "马克", 
-     "span2_text": "他"
-    }, 
-     "idx": 0, 
+数据来源：数据有CLUE benchmark提供，从中国现当代作家文学作品中抽取，再经语言专家人工挑选、标注。
+
+数据形式：
+     {"target": 
+         {"span2_index": 37, 
+         "span1_index": 5, 
+         "span1_text": "床", 
+         "span2_text": "它"}, 
+     "idx": 261, 
      "label": "false", 
-     "text": "马克告诉皮特许多关于他自己的谎言，皮特也把这些谎言写进了他的书里。他应该多怀疑。"
-}
-    其中label标签，true表示指代一致，false表示指代不一致。
-```
+     "text": "这时候放在床上枕头旁边的手机响了，我感到奇怪，因为欠费已被停机两个月，现在它突然响了。"}
+     "true"表示代词确实是指代span1_text中的名词的，"false"代表不是。
+
+数据集大小：
+- 训练集：1244
+- 开发集：304
+- 测试集：--
 
 ##### 3. CSL 论文关键词识别 Keyword Recognition [详情](https://github.com/CLUEbenchmark/CLUE) [CSL数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/csl_public.zip) NLPCC-CSL数据集下载
 
