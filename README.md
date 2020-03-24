@@ -1,8 +1,8 @@
 # LightLM 高性能小模型测评
 
-Shared Tasks in NLPCC 2020. 
+NLPCC 2020 测评任务 Shared Tasks in NLPCC 2020. 
 
-Task 1 - Light Pre-Training Chinese Language Model for NLP Task
+搞性能小模型测评 Task 1 - Light Pre-Training Chinese Language Model for NLP Task
 
 注册地址：
 
@@ -28,17 +28,17 @@ The goal of this task is to train a light language model which is still as power
 
 ## **如何报名 How to Participate**
 
-Registration online with the following steps:
-
-(1.1) Visit www.CLUEbenchmark.com, and click the button 【注册】 at the top right corner of the page. After that, please log in. 
-
-(1.2) After selecting the【NLPCC测评】in the top navigation bar, please register our task in 【比赛注册】.
-
 任务注册方式：
 
 (1.1)  访问[www.CLUEbenchmark.com](http://www.CLUEbenchmark.com)， 右上角点击【注册】并登录。
 
 (1.2) 进入【NLPCC测评】tab页，选中【注册栏】后进行比赛注册，并点击提交。
+
+Registration online with the following steps:
+
+(1.1) Visit www.CLUEbenchmark.com, and click the button 【注册】 at the top right corner of the page. After that, please log in. 
+
+(1.2) After selecting the【NLPCC测评】in the top navigation bar, please register our task in 【比赛注册】.
 
 ##  **关键日期 Important dates**
 
@@ -102,7 +102,7 @@ Registration online with the following steps:
 景点（scene）:199
 ```
 
-##### 2. WSC Winograd模式挑战中文版 The Winograd Schema Challenge,Chinese Version  <a href='https://storage.googleapis.com/cluebenchmark/tasks/cluewsc2020_public.zip'>WSC数据集下载</a>
+##### 2. CLUEWSC2020: WSC Winograd模式挑战中文版，新版 The Winograd Schema Challenge,Chinese Version  <a href='https://storage.googleapis.com/cluebenchmark/tasks/cluewsc2020_public.zip'>CLUEWSC2020数据集下载</a>
 
 Winograd Scheme Challenge（WSC）是一类代词消歧的任务，即判断句子中的代词指代的是哪个名词。题目以真假判别的方式出现，如：
 句子：这时候放在床上枕头旁边的手机响了，我感到奇怪，因为欠费已被停机两个月，现在它突然响了。需要判断“它”指代的是“床”、“枕头”，还是“手机”？
@@ -125,7 +125,7 @@ Winograd Scheme Challenge（WSC）是一类代词消歧的任务，即判断句�
 - 开发集：304
 - 测试集：--
 
-##### 3. CSL 论文关键词识别 Keyword Recognition [详情](https://github.com/CLUEbenchmark/CLUE) [CSL数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/csl_public.zip) NLPCC-CSL数据集下载
+##### 3. CSL 论文关键词识别 Keyword Recognition [详情](https://github.com/CLUEbenchmark/CLUE) [CSL数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/csl_public.zip)  
 
 [中文科技文献数据集(CSL)](https://github.com/P01son6415/chinese-scientific-literature-dataset)取自中文论文摘要及其关键词，论文选自部分中文社会科学和自然科学核心期刊。 使用tf-idf生成伪造关键词与论文真实关键词混合，构造摘要-关键词对，任务目标是根据摘要判断关键词是否全部为真实关键词。
 
@@ -136,7 +136,6 @@ Winograd Scheme Challenge（WSC）是一类代词消歧的任务，即判断句�
     每一条数据有四个属性，从前往后分别是 数据ID，论文摘要，关键词，真假标签。
     
 ```
-
 
 
 ##### 4.CMRC2018 简体中文阅读理解任务 Reading Comprehension for Simplified Chinese [详情](https://github.com/CLUEbenchmark/CLUE) [CMRC2018数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/cmrc2018_public.zip)
