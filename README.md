@@ -113,6 +113,7 @@ Winograd Scheme Challenge（WSC）是一类代词消歧的任务。新版与原C
 数据来源：数据有CLUE benchmark提供，从中国现当代作家文学作品中抽取，再经语言专家人工挑选、标注。
 
 数据形式：
+
      {"target": 
          {"span2_index": 37, 
          "span1_index": 5, 
