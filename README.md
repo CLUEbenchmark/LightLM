@@ -4,6 +4,8 @@ NLPCC 2020 测评任务 Shared Tasks in NLPCC 2020.
 
 搞性能小模型测评 Task 1 - Light Pre-Training Chinese Language Model for NLP Task
 
+现已可以提交到<a href='https://www.cluebenchmarks.com/nlpcc2020.html'>排行榜</a>，提交样例见：<a href='https://storage.googleapis.com/cluebenchmark/tasks/nlpcc_task1_submit_examples.zip'>提交样例</a>
+
 注册地址：
 
 https://www.cluebenchmarks.com/nlpcc.html
@@ -127,7 +129,6 @@ Winograd Scheme Challenge（WSC）是一类代词消歧的任务。新版与原C
 数据集大小：
 - 训练集：1244
 - 开发集：304
-- 测试集：--
 
 ##### 3. CSL 论文关键词识别 Keyword Recognition [详情](https://github.com/CLUEbenchmark/CLUE) [CSL数据集下载](https://storage.googleapis.com/cluebenchmark/tasks/csl_public.zip)  
 
