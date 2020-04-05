@@ -8,7 +8,7 @@ NLPCC 2020 测评任务 Shared Tasks in NLPCC 2020.
 
 注册地址：
 
-https://www.cluebenchmarks.com/nlpcc.html
+https://www.cluebenchmarks.com/NLPCC.html
 
 NLPCC 2020 网站：
 
