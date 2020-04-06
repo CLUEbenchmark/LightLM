@@ -65,6 +65,14 @@ Registration online with the following steps:
 2020/08/10：camera-ready paper submission deadline;
 
 # 本次测评的基线模型、代码和一键运行脚本
+```
+可以进入baselines/models目录下
+1. bert目录下为WSC和CSL任务: bash run_classifier_clue.sh
+2. bert_mrc 为 cmrc2018 任务baseline: bash run.sh
+3. bert_ner 为 CLUENER任务 baseline: bash run_ner.sh
+
+只要加载相应的模型 即可进行预测。
+```
 
  CLUENER2020、WSC、CSL: 见<a href='https://github.com/CLUEbenchmark/CLUEPretrainedModels'>CLUEPretrainedModels</a>
  
