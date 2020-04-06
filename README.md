@@ -2,7 +2,7 @@
 
 NLPCC 2020 测评任务 Shared Tasks in NLPCC 2020. 
 
-搞性能小模型测评 Task 1 - Light Pre-Training Chinese Language Model for NLP Task
+高性能小模型测评 Task 1 - Light Pre-Training Chinese Language Model for NLP Task
 
 现已可以提交到<a href='https://www.cluebenchmarks.com/nlpcc2020.html'>排行榜</a>，提交样例见：<a href='https://storage.googleapis.com/cluebenchmark/tasks/nlpcc_task1_submit_examples.zip'>提交样例</a>
 
@@ -42,28 +42,6 @@ Registration online with the following steps:
 
 (1.2) After selecting the【NLPCC测评】in the top navigation bar, please register our task in 【比赛注册】.
 
-##  **关键日期 Important dates**
-
-2020/03/10：announcement of shared tasks and call for participation;
-
-2020/03/10：registration open;
-
-2020/03/25：release of detailed task guidelines & training data;
-
-2020/05/01：registration deadline;
-
-2020/05/15：release of test data;
-
-2020/05/20：participants’ results submission deadline;
-
-2020/05/30：evaluation results release and call for system reports and conference paper;
-
-2020/06/30：conference paper submission deadline (only for shared tasks);
-
-2020/07/30：conference paper accept/reject notification;
-
-2020/08/10：camera-ready paper submission deadline;
-
 # 本次测评的基线模型、代码和一键运行脚本
 ```
 可以进入baselines/models目录下
@@ -75,9 +53,9 @@ Registration online with the following steps:
 ```
 
  CLUENER2020、WSC、CSL: 见<a href='https://github.com/CLUEbenchmark/CLUEPretrainedModels'>CLUEPretrainedModels</a>
- 
+
  CMRC 2018: 见<a href='https://github.com/CLUEbenchmark/CLUE'>CLUE</a>
- 
+
 # 任务描述 Dataset Description
 
 ##### 1. CLUENER2020  细粒度命名实体识别 [详情](https://github.com/CLUEbenchmark/CLUENER2020) [NER数据下载]([数据下载](http://www.cluebenchmark.com/introduce.html))
@@ -205,34 +183,24 @@ Information in this page we refered to:
 
 [1] http://tcci.ccf.org.cn/conference/2019/taskdata.php
 
-[2] 
-
 ## NOTE
 
 Any question, please contact us via CLUEbenchmark@163.com or just open an issue.
 
+## **关键日期 Important dates**
 
+- [x] 2020/03/10：announcement of shared tasks and call for participation;
+- [x] 2020/03/10：registration open;
+- [x] 2020/03/25：release of detailed task guidelines & training data;
+- [x] 2020/04/06：release of baseline and start the competition
 
-# Timeline for this task
-
-- [ ] 首先把任务详细说明列出-2020.3.15
-
-- [ ] 整理出baseline，以及对应的数据和评估脚本-2020.3.20
-
-- [ ] 测试系统，评测，并走通流程-2020.3.25
-
-- [ ] 撰写相关评测文档 并对作者提交结果进行check
-
-
-
-## TODOLIST:
-
-- [ ] clue主页的小模型榜单需要做清理/或者单独开辟出榜单，周榜冠军会在nlpcc tab界面给出每周的冠军队伍名字以及对应的得分
-
-- [ ] 榜单上需要明确模型的参数量级。以及对应的human performance，现在需要自己去查找。【将human和nomal size的模型的性能也都放到小模型上面】
-
-- [ ] 榜单需要给出一个英文版本的说明和操作指南
-- [ ] https://github.com/CLUEbenchmark/DistilBert 蒸馏模型可以提上日程，提供baseline，会参照huggerface来进行
+- [ ] 2020/05/01：registration deadline;
+- [ ] 2020/05/15：release of test data;
+- [ ] 2020/05/20：participants’ results submission deadline;
+- [ ] 2020/05/30：evaluation results release and call for system reports and conference paper;
+- [ ] 2020/06/30：conference paper submission deadline (only for shared tasks);
+- [ ] 2020/07/30：conference paper accept/reject notification;
+- [ ] 2020/08/10：camera-ready paper submission deadline;
 
 
 
