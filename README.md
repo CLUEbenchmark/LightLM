@@ -14,6 +14,10 @@ NLPCC 2020 网站：
 
 http://tcci.ccf.org.cn/conference/2020/cfpt.php
 
+任务guideline：
+
+http://tcci.ccf.org.cn/conference/2020/dldoc/taskgline01.pdf
+
 比赛交流群：
 
 ![img](https://github.com/CLUEbenchmark/LightLM/blob/master/img/shared_task_QA_code)
