@@ -124,12 +124,6 @@ run_task() {
          --do_predict=true
 }
 
-#download_model RoBERTa-tiny-clue
 
-##command##task_name##model_name##max_seq_length##train_batch_size##learning_rate##num_train_epochs##save_checkpoints_steps##tpu_ip
-#run_task afqmc RoBERTa-tiny-clue 128 16 2e-5 3 300
-#run_task cmnli RoBERTa-tiny-clue 128 64 3e-5 2 300
-#run_task iflytek RoBERTa-tiny-clue 128 32 2e-5 3 300
-#run_task tnews RoBERTa-tiny-clue 128 16 2e-5 3 300
 run_task csl RoBERTa-tiny-clue 128 16 1e-5 5 100
 run_task wsc RoBERTa-tiny-clue 128 16 1e-5 10 10
