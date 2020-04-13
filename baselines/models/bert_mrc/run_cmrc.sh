@@ -16,7 +16,7 @@ python run_cmrc2018_drcd_baseline.py \
     --vocab_file=${PATH_TO_BERT}/vocab.txt \
     --bert_config_file=${PATH_TO_BERT}/bert_config.json \
     --init_checkpoint=${PATH_TO_BERT}/bert_model.ckpt \
-    --do_train=False \
+    --do_train=True \
     --train_file=${DATA_DIR}/train.json \
     --do_predict=True \
     --predict_file=${DATA_DIR}/test.json \
