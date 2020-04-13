@@ -60,7 +60,7 @@ baselines/models目录下提供了本次比赛中四个任务的预测脚本，�
 ```
 只要加载相应的模型，即可进行预测。本demo中会自动使用"RoBERTa-tiny-clue"进行预测
 
-提交指导：将以上的结果，打包为nlpcc-xxx.zip 进行提交。注意各个输出文件的名称是不能变的，要保留，不然系统无法识别。
+提交指导：将以上的结果，打包为nlpcc-xxx.zip 进行提交。注意各个输出文件的名称是不能变的，要保留，不然系统无法识别。提交示例请见example。
 
  CLUENER2020、WSC、CSL: 见<a href='https://github.com/CLUEbenchmark/CLUEPretrainedModels'>CLUEPretrainedModels</a>
 
