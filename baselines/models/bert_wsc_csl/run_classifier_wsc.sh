@@ -4,7 +4,7 @@
 # @Last Modified time: 2019-12-05 11:01:11
 #!/usr/bin/env bash
 
-TASK_NAME="wsc"
+TASK_NAME="cluewsc2020"
 MODEL_NAME="chinese_L-12_H-768_A-12"
 CURRENT_DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 export CUDA_VISIBLE_DEVICES="0"
@@ -25,9 +25,9 @@ fi
 cd $TASK_NAME
 if [ ! -f "train.json" ] || [ ! -f "dev.json" ] || [ ! -f "test.json" ]; then
   rm *
-  wget https://storage.googleapis.com/cluebenchmark/tasks/wsc_public.zip
-  unzip wsc_public.zip
-  rm wsc_public.zip
+  wget https://storage.googleapis.com/cluebenchmark/tasks/cluewsc2020_public.zip
+  unzip cluewsc2020_public.zip
+  rm cluewsc2020_public.zip
 else
   echo "data exists"
 fi

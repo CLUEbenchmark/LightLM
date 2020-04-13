@@ -1281,7 +1281,8 @@ def main(_):
               start_logits=start_logits,
               end_logits=end_logits))
 
-    output_json_name = "dev_predictions.json"
+    # output_json_name = "dev_predictions.json"
+    output_json_name = "cmrc2018_predict.json"
     output_nbest_name = "dev_nbest_predictions.json"
 
     output_prediction_file = os.path.join(FLAGS.output_dir, output_json_name)
