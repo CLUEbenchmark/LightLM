@@ -53,10 +53,10 @@ echo "Finish download model."
 cd $CURRENT_DIR
 echo "Start running..."
 
-python run_classifier_roberta_wwm_large.py \
+python run_classifier_ner.py \
   --task_name=$TASK_NAME \
-  --do_train=true \
-  --do_predict=true \
+  --do_train=False \
+  --do_predict=True \
   --data_dir=$CLUE_DATA_DIR/$TASK_NAME \
   --vocab_file=$ROBERTA_CLUE_DIR/vocab.txt \
   --bert_config_file=$ROBERTA_CLUE_DIR/bert_config.json \

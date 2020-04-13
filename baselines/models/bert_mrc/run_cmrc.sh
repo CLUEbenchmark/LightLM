@@ -5,7 +5,7 @@
 # Personal page: dukeenglish.github.io
 # Created Time: 21:36:42 2020-03-30
 #########################################################################
-PATH_TO_BERT=../bert/prev_trained_models/RoBERTa-tiny-clue
+PATH_TO_BERT=../bert_wsc_csl/prev_trained_models/RoBERTa-tiny-clue
 
 DATA_DIR=../..//CLUEdataset/cmrc
 
@@ -16,10 +16,10 @@ python run_cmrc2018_drcd_baseline.py \
     --vocab_file=${PATH_TO_BERT}/vocab.txt \
     --bert_config_file=${PATH_TO_BERT}/bert_config.json \
     --init_checkpoint=${PATH_TO_BERT}/bert_model.ckpt \
-    --do_train=True \
+    --do_train=False \
     --train_file=${DATA_DIR}/train.json \
     --do_predict=True \
-    --predict_file=${DATA_DIR}/dev.json \
+    --predict_file=${DATA_DIR}/test.json \
     --train_batch_size=32 \
     --num_train_epochs=2 \
     --max_seq_length=512 \

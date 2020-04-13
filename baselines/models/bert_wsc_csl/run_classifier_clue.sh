@@ -125,5 +125,7 @@ run_task() {
 }
 
 
-run_task csl RoBERTa-tiny-clue 128 16 1e-5 5 100
-run_task wsc RoBERTa-tiny-clue 128 16 1e-5 10 10
+run_task csl RoBERTa-tiny-clue 128 16 1e-5 0 100
+run_task wsc RoBERTa-tiny-clue 128 16 1e-5 0 10
+#run_task csl RoBERTa-tiny-clue 128 16 1e-5 5 100
+#run_task wsc RoBERTa-tiny-clue 128 16 1e-5 10 10
