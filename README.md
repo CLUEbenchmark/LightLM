@@ -195,10 +195,11 @@ https://hfl-rc.github.io/cmrc2018/
 1. 1000元人民币整
 2. CLUE周赛证书（可以在线访问）
 3. 我们提供提供200G预训练语料给周赛获奖队伍
-  获奖要求：
 
-  1. 在4.18， 5.3， 5.16 三个时间节点早上8点前处于第一名的队伍
-  2. 需要在第二天的时候做一次关于小模型训练的分享，可以有选择性的分享一些比赛相关的技巧
+获奖要求：
+
+1. 在4.18， 5.3， 5.16 三个时间节点早上8点前处于第一名的队伍
+2. 需要在第二天的时候做一次关于小模型训练的分享，可以有选择性的分享一些比赛相关的技巧
 
   NOTE：
 
@@ -215,6 +216,21 @@ Information in this page we refered to:
 
 Any question, please contact us via CLUEbenchmark@163.com or just open an issue.
 
+## 结果：
+
+首先感谢大家本次的参与，我们本次比赛的评定规则如下：
+1. 由于测速涉及到硬件条件的限制，所以我们将依据参赛同学自己测定的速度作为模型是否符合规范的依据。
+2. 最终分数评定由我们实际测算的速度和参数量按照任务指南中的公式进行计算，分数可能会存在误差，以不影响名次为可接受误差范围内。
+3. 具体名次如下：
+第一名：Huawei Cloud & Noah's Ark lab，得分：0.777126778
+第二名：Tencent Oteam，得分：0.768969257
+第三名：Xiaomi AI Lab，得分：0.758543871
+结果公示三天，如果有问题可以和我们联系。
+本次比赛是CLUE第一次正式举办的对外比赛，不免有很多疏漏之处，也非常感谢得到来自各个学校、公司的各位同学大神的指导和帮助。
+本次比赛的其他信息会在最终的评估报告中有详细的解释。
+CLUE保留对结果的最终解释权。关于奖励发放的事宜会在后续和各位获奖者沟通。
+恭喜这些同学，也非常感谢各位的支持。
+
 ## **关键日期 Important dates**
 
 - [x] 2020/03/10：announcement of shared tasks and call for participation;
@@ -222,10 +238,10 @@ Any question, please contact us via CLUEbenchmark@163.com or just open an issue.
 - [x] 2020/03/25：release of detailed task guidelines & training data;
 - [x] 2020/04/06：release of baseline and start the competition
 
-- [ ] 2020/05/01：registration deadline;
-- [ ] 2020/05/15：release of test data;
-- [ ] 2020/05/20：participants’ results submission deadline;
-- [ ] 2020/05/30：evaluation results release and call for system reports and conference paper;
+- [x] 2020/05/01：registration deadline;
+- [x] 2020/05/15：release of test data;
+- [x] 2020/05/20：participants’ results submission deadline;
+- [x] 2020/05/30：evaluation results release and call for system reports and conference paper;
 - [ ] 2020/06/30：conference paper submission deadline (only for shared tasks);
 - [ ] 2020/07/30：conference paper accept/reject notification;
 - [ ] 2020/08/10：camera-ready paper submission deadline;
